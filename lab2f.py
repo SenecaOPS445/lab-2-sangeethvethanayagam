@@ -4,9 +4,11 @@
 # Author ID: 189353238
 # Date Created: 01/25/2025
 
-timer = 10
+import sys
 
-count = 10
+timer = int(sys.argv[1])
+
+count = timer
 while count != 0:
     print(count)
     count = count - 1
