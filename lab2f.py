@@ -8,9 +8,8 @@ import sys
 
 timer = int(sys.argv[1])
 
-count = timer
-while count != 0:
-    print(count)
-    count = count - 1
+while timer != 0:
+    print(timer)
+    timer = timer - 1
 print('blast off!')
 
